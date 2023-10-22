@@ -1,0 +1,28 @@
+{
+  "name": "stackblitz-moleculer-project-demo",
+  "version": "1.0.0",
+  "description": "My Moleculer-based microservices project",
+  "scripts": {
+    "dev": "moleculer-runner --repl --hot services/**/*.service.js",
+    "start": "moleculer-runner",
+    "lint": "eslint services"
+  },
+  "keywords": [
+    "microservices",
+    "moleculer"
+  ],
+  "author": "",
+  "dependencies": {
+    "moleculer": "^0.14.13",
+    "moleculer-db": "^0.8.4",
+    "moleculer-db-adapter-mongo": "^0.4.7",
+    "moleculer-web": "^0.9.1"
+  },
+  "engines": {
+    "node": ">= 10.x.x"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "moleculer-repl": "^0.6.4"
+  }
+}

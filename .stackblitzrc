@@ -1,0 +1,4 @@
+{
+  "installDependencies": true,
+  "startCommand": "node node_modules/moleculer/bin/moleculer-runner.js --repl --hot services/**/*.service.js"
+}
